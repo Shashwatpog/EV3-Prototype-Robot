@@ -49,7 +49,7 @@ import ev3dev2
 
 > **Note**
 > If using VS code make sure to change from CRLF to LF
-> Ev3dev2 docs -> <a href src = "https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/spec.html"> CLICK HERE </a>
+> Ev3dev2 docs -> [Documentation](https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/spec.html)
 
 This software uses the following open source packages:
 
