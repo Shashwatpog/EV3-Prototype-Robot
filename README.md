@@ -7,7 +7,7 @@ A prototype of a robot used in warehouse facilities to move boxes to specified p
 
 ### We broke down the problem into different pieces and tackled each part one by one:
 * Robot needed to navigate through the warehouse
-* Stop at given location
+* Stop at a given location
 * Scan barcode on the box and identify drop off location based on the barcode
 * Lift the box and drop it off at the location matched through the barcode
 <img width="479" alt="image" src="https://github.com/Shashwatpog/EV3-Prototype-Robot/assets/141262519/98c0bf5d-933b-4e1c-b215-7f11c7fde861">
