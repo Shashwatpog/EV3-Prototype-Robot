@@ -67,7 +67,7 @@ import ev3dev2
 > <br>
 > If using VS code make sure to change from CRLF to LF <br>
 > Ev3dev2 docs -> [Documentation](https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/spec.html)<br>
-> Download EV3dev2 extension package on VS code
+> Download EV3dev2 extension package on VS code <br>
 > [Ev3dev2 Support and Config file](https://drive.google.com/file/d/14C0nthxZp0Bdg3hHogh25fNWywiaQqdh/view?usp=sharing)
 
 
