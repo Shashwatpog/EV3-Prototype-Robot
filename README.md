@@ -1,12 +1,7 @@
 # EV3-Prototype-Robot
 EV3 robot - prototype for warehouse box management robot
-
-<h1 align="center">
-  <br>
-
-<h4 align="center">A prototype of a robot used in warehouse facilities to move boxes to specified positions using bar codes for better inventory management</h4>
-
-
+<br>
+A prototype of a robot used in warehouse facilities to move boxes to specified positions using bar codes for better inventory management
 
 ## About
 
@@ -15,22 +10,29 @@ EV3 robot - prototype for warehouse box management robot
 * Stop at given location
 * Scan barcode on the box and identify drop off location based on the barcode
 * Lift the box and drop it off at the location matched through the barcode
+<img width="479" alt="image" src="https://github.com/Shashwatpog/EV3-Prototype-Robot/assets/141262519/98c0bf5d-933b-4e1c-b215-7f11c7fde861">
 
-### For each part we developed the following functionalities : 
-#### Navigation
+### For each part we developed the following functionalities :
+
+#### 1. Navigation
 For Navigation, we used two motors. 
 After running tests, we found the best speed at which the robot did not drift and get off the track due to friction. 
 The tests also helped us determine if the robot was not going in a straight line.
-#### Stopping at a Box
+
+#### 2. Stopping at a Box
 We used an ultrasonic sensor to stop near a box.
 The ultrasonic sensor was programmed to sense if there was an object near the robot. 
 If yes, then the robot stops and initiates the barcode scanning function.
-#### Barcode Scanning
+
+#### 3. Barcode Scanning
+<img width="415" alt="image" src="https://github.com/Shashwatpog/EV3-Prototype-Robot/assets/141262519/50a56f02-ab7e-49a9-857f-832024309dae">
+
 To scan the barcode, a light sensor was used.
 As the barcodes are combinations of black and white lines, the light sensors were programmed to sense the color on barcode.
 White returns 0, Black returns 1.
 These numbers were stored in an array and after successful scanning, the array was referenced to already existing barcode arrays for specified drop locations of each box.
-#### Lifting and drop off
+
+#### 4. Lifting and drop off
 A forklift mechanism was used to pick up the box and drop it at the specified location.
 
 ## How To Use
@@ -46,48 +48,32 @@ $ pip install python-ev3dev2
 #!/usr/bin/env python3
 import ev3dev2
 ```
+## Additional pictures + Design Notebook
+
+<img align = center height = "200" width="400" alt="image" src="https://github.com/Shashwatpog/EV3-Prototype-Robot/assets/141262519/d44f7be9-6003-45dd-8726-68f8fad19a3f">
+<img align = center height = "200" width="303" alt="image" src="https://github.com/Shashwatpog/EV3-Prototype-Robot/assets/141262519/af426566-2655-4be0-a932-ab6c872e746d">
+<br>
+<img align = center height = "200 "width="255" alt="image" src="https://github.com/Shashwatpog/EV3-Prototype-Robot/assets/141262519/602301a7-792b-4f2b-9be4-fabe6526f995">
+<img align = center height = "200" width="338" alt="image" src="https://github.com/Shashwatpog/EV3-Prototype-Robot/assets/141262519/309d0102-1ef3-4331-86bb-9b29054e08a6">
+<br>
+<img align = center height = "400" width="400" src = "https://github.com/Shashwatpog/EV3-Prototype-Robot/assets/141262519/315fc55a-4825-42a2-81d5-b5c6c42f913b">
+<img align = center height = "400" width="400" src = "https://github.com/Shashwatpog/EV3-Prototype-Robot/assets/141262519/f7615d53-519c-4616-bf54-935e3cd8f7a3">
+
+
+
+
 
 > **Note**
 > If using VS code make sure to change from CRLF to LF
 > Ev3dev2 docs -> [Documentation](https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/spec.html)
 
-This software uses the following open source packages:
-
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
-
-## Related
-
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
-
-## Support
-
-<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-<p>Or</p> 
-
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-## You may also like...
-
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
 
 ## License
 
 MIT
 
 ---
+> GitHub [@Shashwatpog](https://github.com/Shashwatpog)
 
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
 
 
