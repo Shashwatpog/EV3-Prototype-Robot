@@ -42,13 +42,14 @@ $ pip install python-ev3dev2
 ```
 
 ```
-# in the python code
-import ev3
+#include the following comment at the beginning of each ev3dev2 python file:
+#!/usr/bin/env python3
+import ev3dev2
 ```
 
 > **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
+> If using VS code make sure to change from CRLF to LF
+> Ev3dev2 docs -> <a href src = "https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/spec.html"> CLICK HERE </a>
 
 ## Download
 
