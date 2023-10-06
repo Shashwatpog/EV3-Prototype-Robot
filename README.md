@@ -1,4 +1,4 @@
-# EV3-Prototype-Robot
+# EV3-Prototype-Robot (Now Archived - Team 188 Spring 2022 ENED 1120 project)
 EV3 robot - prototype for warehouse box management robot
 <br>
 A prototype of a robot used in warehouse facilities to move boxes to specified positions using bar codes for better inventory management
@@ -64,8 +64,11 @@ import ev3dev2
 
 
 > **Note**
-> If using VS code make sure to change from CRLF to LF
-> Ev3dev2 docs -> [Documentation](https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/spec.html)
+> <br>
+> If using VS code make sure to change from CRLF to LF <br>
+> Ev3dev2 docs -> [Documentation](https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/spec.html)<br>
+> Download EV3dev2 extension package on VS code
+> [Ev3dev2 Support and Config file](https://drive.google.com/file/d/14C0nthxZp0Bdg3hHogh25fNWywiaQqdh/view?usp=sharing)
 
 
 ## License
